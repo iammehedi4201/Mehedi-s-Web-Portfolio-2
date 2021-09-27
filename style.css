@@ -183,3 +183,71 @@ section
     font-weight: 500;
     text-align: center;
 }
+
+/* work-inquriy section css start from here */
+
+.work-inquriy
+{ 
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  background-image: url(Accessories/shapes/Group_33094_1.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 100% 100%,contain;
+  margin-bottom: 50px;
+}
+
+.work-inquriy h1
+{
+   font-size: 40px;
+   font-weight: 900;
+   text-transform: uppercase;
+
+}
+
+.let-chat-button
+{  
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 40px;
+  border: 2px solid #f6d365;
+  background-image: linear-gradient(120deg, #F76961 0%, #fda085 100%);
+  color: rgb(245, 243, 243);
+  border-radius: 5px;
+  font-weight: 500;
+
+  
+}
+
+/* footer section css start from here */
+
+footer
+{ 
+  width:20%;
+  margin: auto;
+}
+footer p
+{
+  text-align: center;
+}
+
+footer h1 
+{
+  color:lightcoral ;
+  font-weight: 900;
+  text-align: center;
+}
+.logo-container
+{
+  display: flex;
+  justify-content:center; 
+}
+.logo-container img
+{
+  width: 15%;
+}
