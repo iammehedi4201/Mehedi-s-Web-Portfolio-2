@@ -16,6 +16,7 @@ body
 }
 .half-width
 {
+  padding: 30px;
 
 }
 .half-width h1
@@ -35,6 +36,12 @@ body
 .half-width img
 {
   width: 70%;
+  
+}
+#half-box-shadow-effect
+{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
 }
 
 section
@@ -42,11 +49,13 @@ section
   margin-bottom: 40px;
 }
 
+
+
 /* Nav bar css start from here */
 
 .nav-bar
 {
-
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .nav-bar ul 
 {
@@ -56,7 +65,7 @@ section
 }
 .nav-bar ul li 
 {
-    border: 2px solid rgb(21, 22, 22);
+    padding: 20px;
     margin-left: 5px; 
     
 }
